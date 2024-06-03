@@ -1,0 +1,76 @@
+{
+    "$schema": "https://biomejs.dev/schemas/1.5.3/schema.json",
+    "vcs": { "enabled": true, "clientKind": "git", "useIgnoreFile": true },
+    "formatter": {
+        "enabled": true,
+        "indentWidth": 4,
+        "indentStyle": "space",
+        "lineWidth": 200,
+        "formatWithErrors": true
+    },
+    "javascript": {
+        "formatter": {
+            "trailingComma": "all",
+            "bracketSameLine": true,
+            "quoteStyle": "double",
+            "jsxQuoteStyle": "double",
+            "quoteProperties": "asNeeded",
+            "semicolons": "asNeeded",
+            "arrowParentheses": "asNeeded"
+        }
+    },
+    "linter": {
+        "enabled": true,
+        "rules": {
+            "all": true,
+            "complexity": {
+                "useSimplifiedLogicExpression": "off",
+                "noForEach": "off",
+                "useLiteralKeys": "off"
+            },
+            "performance": {
+                "noDelete": "off"
+            },
+            "correctness": {
+                "noUndeclaredVariables": "off",
+                "noConstantCondition": "off"
+            },
+            "style": {
+                "noParameterAssign": "off",
+                "useTemplate": "off",
+                "useSingleVarDeclarator": "off",
+                "noNonNullAssertion": "off",
+                "noUnusedTemplateLiteral": "off",
+                "noUselessElse": "off",
+                "useConst": "off"
+            },
+            "suspicious": {
+                "noExplicitAny": "off",
+                "noConsoleLog": "off",
+                "noAssignInExpressions": "off",
+                "noAsyncPromiseExecutor": "off"
+            },
+            "nursery": {
+                "noDuplicateJsonKeys": "error",
+                "noEmptyBlockStatements": "error",
+                "noEmptyTypeParameters": "error",
+                "noGlobalAssign": "error",
+                "noInvalidUseBeforeDeclaration": "error",
+                "noThenProperty": "error",
+                "noUnusedImports": "off",
+                "noUnusedPrivateClassMembers": "error",
+                "noUselessLoneBlockStatements": "error",
+                "noUselessTernary": "error",
+                "useAwait": "error",
+                "useConsistentArrayType": "error",
+                "useFilenamingConvention": "off",
+                "useExportType": "error",
+                "useImportType": "error",
+                "useGroupedTypeImport": "error",
+                "useNodejsImportProtocol": "off",
+                "useNumberNamespace": "error",
+                "useShorthandFunctionType": "error"
+            }
+        }
+    }
+}
