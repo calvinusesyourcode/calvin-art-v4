@@ -20,15 +20,6 @@ const bio = [
 
 const items = [
     {
-        title: "design",
-        description: "web, print, social",
-        images: [
-            "https://firebasestorage.googleapis.com/v0/b/creat1vecapital.appspot.com/o/public%2Fportfolio%2Fupnorth-vercel-on-iphones.jpg?alt=media&token=c005b113-9815-4556-b313-6fb8bb2f197a",
-            "https://firebasestorage.googleapis.com/v0/b/creat1vecapital.appspot.com/o/public%2Fportfolio%2Fshh.jpg?alt=media&token=d50d1e2a-9bca-4217-9fe9-bb2b2b01183d",
-            "https://firebasestorage.googleapis.com/v0/b/creat1vecapital.appspot.com/o/public%2Fportfolio%2FDSC00009.JPG?alt=media&token=f69515b5-b2e2-469f-8d20-a3d47c06821f",
-            ]
-    },
-    {
         title: "mobile podcast studio",
         description: "record, edit, publish",
         images: [
@@ -36,6 +27,15 @@ const items = [
             "https://firebasestorage.googleapis.com/v0/b/creat1vecapital.appspot.com/o/public%2Fportfolio%2Ftable-bistro.jpg?alt=media&token=b555d892-a211-404e-819a-707239792de8",
             "https://firebasestorage.googleapis.com/v0/b/creat1vecapital.appspot.com/o/public%2Fportfolio%2Ffitlab-podcast.jpg?alt=media&token=d59e04d8-93ab-4eed-82b6-3674c9d2e7e8",
         ],
+    },
+    {
+        title: "design",
+        description: "web, print, social",
+        images: [
+            "https://firebasestorage.googleapis.com/v0/b/creat1vecapital.appspot.com/o/public%2Fportfolio%2Fupnorth-vercel-on-iphones.jpg?alt=media&token=c005b113-9815-4556-b313-6fb8bb2f197a",
+            "https://firebasestorage.googleapis.com/v0/b/creat1vecapital.appspot.com/o/public%2Fportfolio%2Fshh.jpg?alt=media&token=d50d1e2a-9bca-4217-9fe9-bb2b2b01183d",
+            "https://firebasestorage.googleapis.com/v0/b/creat1vecapital.appspot.com/o/public%2Fportfolio%2FDSC00009.JPG?alt=media&token=f69515b5-b2e2-469f-8d20-a3d47c06821f",
+            ]
     },
     {
         title: "software development",
